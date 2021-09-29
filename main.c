@@ -9,10 +9,20 @@ long sum(int a){
     return result;
 }
 
-int main(){
+void test1(){
     int a = 100;
     long result = sum(a);
     printf("add from 1 to 100: %ld\n",result);
+}
+
+void test2(){
+    char *p;
+    *p = 1;
+    return;
+}
+
+int main(){
+    test2();
     return 0;
 }
 
